@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <LINK href="estilos.css" rel="stylesheet" type="text/css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;400&family=Tajawal:wght@300&display=swap" rel="stylesheet">
+      <link rel="icon" type="image/x-icon" href="imagenes/favicon.ico">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <title>Curriculum</title>
+</head>
+
+<body>
+  <!-- Header con menu responsive -->
+    <div class="header">
+        <img src="imagenes/fondo2.jpg" alt="Fondo" class="responsive">
+        <a title="Perfil" href="index.html"><img class="perfil" src="imagenes/Adam.jpg" alt="Perfil"  /></a>
+        <div class="header-right">
+          <a class="active" href="#home">Home</a>
+          <a href="#sobreMi">SOBRE MI</a>
+          <a href="#tecnologias">TECNOLOGÍAS</a>
+          <a href="#portafolio">PORTAFOLIO</a>
+          <a href="#contacto">CONTACTO</a>
+        </div>
+      </div>
+      
+    <div id="sobreMi">
+        <h1>Soy Stanley Hawkins</h1>
+        <p>Diseño y programo proyectos web a medida de manera freelance, puedo ayudarte a poner en línea tu sitio desde el inicio, con un diseño responsivo, adaptable a cualquier pantalla, acorde a tus necesidades y requerimientos.</p>
+    </div>
+
+    <div id="tecnologias">
+      <h1>Tecnologías</h1>
+      <p>Tecnologías que utilizo, para el diseño y maquetación: HTML5, CSS. Para lograr un sitio dinámico, programación con Javascript, PHP y MySQL.</p>
+    </div>
+
+    <!-- Grid responsive de tecnologías -->
+    <div class="row"> 
+      <div class="column">
+        <img  src="imagenes/html5.jpg" alt="HTML5">
+        <img src="imagenes/MySQL.jpg" alt="MYSQL">
+      </div>
+      <div class="column">
+        <img src="imagenes/JavaScript.jpg" alt="JAVASCRIPT">
+        <img src="imagenes/PHP.jpg" alt="PHP">
+
+      </div>  
+      <div class="column">
+        <img src="imagenes/css.jpg" alt="CSS">  
+        <img src="imagenes/Frontend.jpg" alt="FRONTEND">
+      </div>
+    </div>
+
+    <!-- Portafolio con grid responsive -->
+    <div id="portafolio">
+      <h1>Portafolio</h1>
+      <p>Últimos trabajos en desarrollo web Frontend</p>
+    </div>
+      
+    <div class="row"> 
+      <div class="column">
+        <a title="WegroW" href="https://wegrowtodoverde.com.ar/" target="_blank"><img class="web" src="imagenes/wegrow.jpg" alt="WegroW"/></a>
+      </div>
+      <div class="column">
+        <a title="EscobarAbogados" href="https://escobarabogados.com.ar/" target="_blank"><img class="web" src="imagenes/EscobarAbogados.jpg" alt="EscobarAbogados"/></a>
+
+      </div>  
+      <div class="column">
+        <a title="MontreauxTours" href="https://montreauxtours.com/" target="_blank"><img class="web" src="imagenes/Montreaux-Tours.jpg" alt="Montreaux-Tours"/></a> 
+      </div>
+    </div>
+
+    <!-- Contacto -->
+    <div id="contacto">
+      <h1>Contacto</h1>
+      <ul>
+        <li>
+       <i class="fa fa-address-book"> Stanley Hawkins</i>         
+        </li>
+        <li>
+       <i class="fa fa-envelope"> stanley.hawkins@example.com</i>
+        </li>
+        <li>
+          <i class="fa fa-map"> 5593 Groveland Terrace</i>  
+        </li>
+        <li>
+          <i class="fa fa-phone-square"> (255) 276-6385</i>  
+        </li>
+      </ul>
+
+      <div class="popup" onclick="myFunction()">
+        
+        <h3>Contacteme ahora por WhatsApp</h3>
+
+        <div class="popuptext" id="myPopup">
+          <a href="https://wa.me/+541131097543/?text=" target="_blank">
+            <img src="imagenes/Digital_Glyph_White.png" width="50" height="50">
+         </a>
+        </div>
+      </div>
+
+    </div>    
+
+    <script src="function.js"></script>
+</body>
+
+<footer>
+  <p>&copy; 2023 Stanley Hawkins</p>
+</footer>
+</html>
